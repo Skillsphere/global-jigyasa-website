@@ -29,9 +29,23 @@
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
+      $("#mainNav").addClass("navbar-shrink")
+      if(document.documentElement.clientWidth > 992) {
+        document.getElementById("logo-white").style.display = "block";
+        document.getElementById("logo-black").style.display = "none";
+      } else {
+        document.getElementById("logo-white").style.display = "block";
+        document.getElementById("logo-black").style.display = "none";
+      }
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      if(document.documentElement.clientWidth > 992) {
+        document.getElementById("logo-white").style.display = "none";
+        document.getElementById("logo-black").style.display = "block";
+      } else {
+        document.getElementById("logo-white").style.display = "block";
+        document.getElementById("logo-black").style.display = "none";
+      }
     }
   };
   // Collapse now if page is not at top
