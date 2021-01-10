@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Global Jigyasa Mobile App</title>
+    <item>
+        <title>Version 1.0.0</title>
+        <description>desc</description>
+        <enclosure url="https://play.google.com/store/apps/details?id=com.jigyasa.app" sparkle:version="1.1.0" sparkle:os="android" />
+        <pubDate>Sun, 1 Nov 2020 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+        <title>Version 1.1.0</title>
+        <description>desc</description>
+        <enclosure url="https://play.google.com/store/apps/details?id=com.jigyasa.app" sparkle:version="1.1.0" sparkle:os="android" />
+        <pubDate>Sun, 10 Jan 2021 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
