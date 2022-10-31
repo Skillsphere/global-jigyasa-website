@@ -12,5 +12,5 @@
 
 This site is hosted on netlify. To make and changes, follow the following steps:
 
-* Clone this repo.
+* Clone this repo
 * Any change on the master branch will automatically be deployed to production
