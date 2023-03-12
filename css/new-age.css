@@ -199,6 +199,51 @@ header.masthead .device-container .screen img {
   }
 }
 
+header.landing-masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../img/background-image.png");
+}
+
+header.landing-masthead .header-content {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header.landing-masthead .header-content h1 {
+  font-size: 30px;
+}
+
+header.landing-masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.landing-masthead .device-container .screen img {
+  border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+  header.landing-masthead {
+    min-height: 775px;
+    padding-bottom: 0;
+  }
+  header.landing-masthead .header-content {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  header.landing-masthead .header-content h1 {
+    font-size: 50px;
+  }
+  header.landing-masthead .device-container {
+    max-width: 325px;
+  }
+}
+
 section.download {
   position: relative;
   padding: 150px 0;
