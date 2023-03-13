@@ -242,6 +242,44 @@ header.landing-masthead .device-container .screen img {
   header.landing-masthead .device-container {
     max-width: 325px;
   }
+  header.landing-masthead .button-container {
+    display: flex;
+    justify-content: space-between !important;
+  }
+}
+
+header.landing-masthead .button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+header.landing-masthead .btn-outline {
+  color: #00235B;
+  border: 1px solid;
+  border-color: black;
+}
+
+header.landing-masthead .btn-outline:hover, header.landing-masthead .btn-outline:focus, header.landing-masthead .btn-outline:active, header.landing-masthead .btn-outline.active {
+  color: #D61355;
+  border-color: transparent;
+  background-color: #FCE22A;
+}
+
+header.landing-masthead .btn {
+  border-radius: 40px;
+  font-family: 'Amaranth' !important;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  height: 85px;
+  width: 225px;
+}
+
+header.landing-masthead .btn-xl {
+  font-size: 16px !important;
+  padding: 5px 20px;
 }
 
 section.download {
