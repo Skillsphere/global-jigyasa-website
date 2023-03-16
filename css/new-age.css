@@ -242,10 +242,21 @@ header.landing-masthead .device-container .screen img {
   header.landing-masthead .device-container {
     max-width: 325px;
   }
+  header.landing-masthead .first-layer-button-container {
+    display: none !important;
+  }
   header.landing-masthead .button-container {
     display: flex;
     justify-content: space-between !important;
   }
+}
+
+header.landing-masthead .first-layer-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 50px;
 }
 
 header.landing-masthead .button-container {

@@ -87,10 +87,22 @@ header.landing-masthead {
             max-width: 325px;
         }
 
+        .first-layer-button-container {
+            display: none !important;
+        }
+
         .button-container {
             display: flex;
             justify-content: space-between !important;
         }
+    }
+
+    .first-layer-button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 50px;
     }
 
     .button-container {
