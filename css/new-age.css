@@ -294,6 +294,101 @@ header.landing-masthead .btn-xl {
   padding: 5px 20px;
 }
 
+header.teacher-landing-masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../img/blue-background-image.png");
+}
+
+header.teacher-landing-masthead .header-content {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header.teacher-landing-masthead .header-content h1 {
+  font-size: 30px;
+}
+
+header.teacher-landing-masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.teacher-landing-masthead .device-container .screen img {
+  border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+  header.teacher-landing-masthead {
+    min-height: 775px;
+    padding-bottom: 0;
+  }
+  header.teacher-landing-masthead .header-content {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  header.teacher-landing-masthead .header-content h1 {
+    font-size: 50px;
+  }
+  header.teacher-landing-masthead .device-container {
+    max-width: 325px;
+  }
+  header.teacher-landing-masthead .first-layer-button-container {
+    display: none !important;
+  }
+  header.teacher-landing-masthead .button-container {
+    display: flex;
+    justify-content: space-between !important;
+  }
+}
+
+header.teacher-landing-masthead .first-layer-button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+header.teacher-landing-masthead .button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+header.teacher-landing-masthead .btn-outline {
+  color: #d61354;
+  border: 1px solid;
+  border-color: transparent;
+  background-color: #fce32a;
+}
+
+header.teacher-landing-masthead .btn-outline:hover, header.teacher-landing-masthead .btn-outline:focus, header.teacher-landing-masthead .btn-outline:active, header.teacher-landing-masthead .btn-outline.active {
+  color: white;
+  border-color: black;
+  background-color: #E21818;
+}
+
+header.teacher-landing-masthead .btn {
+  border-radius: 40px;
+  font-family: 'Amaranth' !important;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  height: 90px;
+  width: 250px;
+}
+
+header.teacher-landing-masthead .btn-xl {
+  font-size: 18px !important;
+  padding: 5px 20px;
+}
+
 section.download {
   position: relative;
   padding: 150px 0;
