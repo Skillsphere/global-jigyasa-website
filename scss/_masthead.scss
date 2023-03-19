@@ -141,3 +141,99 @@ header.landing-masthead {
     }
 }
 
+
+header.teacher-landing-masthead {
+    position: relative;
+
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    color: white;
+    background: url('../img/blue-background-image.png');
+    .header-content {
+        // max-width: 500px;
+        margin-bottom: 100px;
+
+        text-align: center;
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .device-container {
+        max-width: 325px;
+        margin-right: auto;
+        margin-left: auto;
+        .screen img {
+            border-radius: 3px;
+        }
+    }
+    @media (min-width: 992px) {
+        min-height: 775px;
+        padding-bottom: 0;
+        .header-content {
+            margin-bottom: 0;
+
+            text-align: center;
+            h1 {
+                font-size: 50px;
+            }
+        }
+        .device-container {
+            max-width: 325px;
+        }
+
+        .first-layer-button-container {
+            display: none !important;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-between !important;
+        }
+    }
+
+    .first-layer-button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 50px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .btn-outline {
+        color: #d61354;
+        border: 1px solid;
+        border-color: transparent;
+        background-color: #fce32a;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            color: white;
+            border-color: black;
+            background-color: #E21818;
+        }
+    }
+    
+    .btn {
+        border-radius: 40px;
+        font-family: 'Amaranth' !important;
+        @include alt-font;
+        height: 90px;
+        width: 250px;
+    }
+    
+    .btn-xl {
+        font-size: 18px !important;
+        padding: 5px 20px;
+    }
+}
+
