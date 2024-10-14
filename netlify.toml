@@ -1,0 +1,7 @@
+# Redirects from what the browser requests to what we serve
+[[redirects]]
+  from = "/"
+  to = "https://api.mysearch.com"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
