@@ -1,7 +1,6 @@
 # Redirects from what the browser requests to what we serve
  [[redirects]]
   from = "/"
-  to = "https://www.skillsphere.org"
+  to = "https://www.skillsphere.org/index.html"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
