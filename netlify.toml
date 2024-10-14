@@ -1,7 +1,7 @@
 # Redirects from what the browser requests to what we serve
  [[redirects]]
-  from = "/*"
-  to = "https://api.mysearch.com"
+  from = "/"
+  to = "https://www.skillsphere.org"
   status = 200
   force = true
-#  headers = {X-From = "Netlify"}
+  headers = {X-From = "Netlify"}
