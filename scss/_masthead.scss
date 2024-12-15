@@ -209,7 +209,7 @@ header.teacher-landing-masthead {
     }
 
     .btn-outline {
-        color: #d61354;
+        color: #FF7000;
         border: 1px solid;
         border-color: transparent;
         background-color: #fce32a;
@@ -219,13 +219,13 @@ header.teacher-landing-masthead {
         &.active {
             color: white;
             border-color: black;
-            background-color: #E21818;
+            background-color: #FF7000;
         }
     }
     
     .btn {
         border-radius: 40px;
-        font-family: 'Amaranth' !important;
+        font-family: 'Montserrat' !important;
         @include alt-font;
         height: 90px;
         width: 250px;
